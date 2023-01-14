@@ -1,0 +1,128 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster&family=Open+Sans:wght@400;600;700;800&family=Oswald&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.primary-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.primary-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.primary-btn {
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 33px;
+  border: 0;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+}
+
+/* Header and Navigation Area Styles */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 150px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 700;
+  font-size: 40px;
+  color: #131313;
+}
+nav ul {
+  display: flex;
+  gap: 55px;
+}
+nav ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+nav ul li a {
+  text-decoration: none;
+}
+/* Banner Area Styles */
+.banner-info {
+  padding: 100px 150px;
+  text-align: center;
+}
+.banner-info .banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  margin-bottom: 30px;
+}
+.banner-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* Quick List Section Styles */
+.quick-list {
+  padding: 100px 150px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.quick-list-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+.quick-list-img img {
+  width: 300px;
+}
+
+.quick-list-info .primary-title span {
+  color: #ff900e;
+}
+
+/* Feature Section Styles */
+.feature {
+  padding: 100px 150px;
+}
+.feature-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.feature-info {
+  margin-bottom: 40px;
+}
+.feature-info .title-border {
+  border-left: 5px solid #ff900e;
+}
+.feature-single {
+  width: 586px;
+  padding: 30px;
+  background: #ffffff;
+  margin-top: 20px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.feature-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #131313;
+}
+
+.feature-img img {
+  width: 100%;
+}
