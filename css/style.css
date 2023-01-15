@@ -1,6 +1,7 @@
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster&family=Open+Sans:wght@400;600;700;800&family=Oswald&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap");
 
+/* Common Styles */
 * {
   font-family: "Work Sans", sans-serif;
   margin: 0;
@@ -103,13 +104,11 @@ nav ul li a {
   gap: 50px;
   align-items: center;
 }
-.feature-info {
-  margin-bottom: 40px;
-}
 
-.title-border {
+.feature-heading h2 {
   border-left: 7px solid #ff900e;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 .feature-single {
   width: 586px;
@@ -235,7 +234,7 @@ nav ul li a {
   margin: 10px;
   font-size: 16px;
 }
-/* Brands Logo Section Styles*/
+/* our Sponsor Section Styles*/
 .sponsors {
   padding: 80px 150px;
 }
@@ -276,9 +275,85 @@ footer {
 /* Mobile Devices */
 
 @media screen and (max-width: 576px) {
+  header,
+  .quick-list,
+  .feature,
+  .facts,
+  .portfolio,
+  .sponsors,
+  footer {
+    padding: 30px;
+  }
+
   /* Header and Navigation Area Styles */
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
   nav ul {
     flex-direction: column;
-    justify-content:space-between ;
+    gap: 20px;
+  }
+  /* Banner Area Styles */
+  .banner-info {
+    padding: 30px;
+  }
+  .banner-title {
+    font-size: 44px;
+  }
+  /* Quick List Area Styles */
+  .quick-list {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .quick-list-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .quick-list-info {
+    text-align: center;
+  }
+  /* Feature Area Styles */
+  .feature-main {
+    flex-direction: column;
+  }
+  .feature-heading {
+    margin-top: 50px;
+  }
+  .feature-single {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .feature-btn {
+    left: 0;
+    top: -25;
+    margin: 0 auto;
+  }
+  /* Some Facts Area Styles */
+  .fact-heading {
+    text-align: center;
+  }
+  .fact-info {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .fact {
+    margin: 0 auto;
+  }
+  /* Portfolio Section Styles */
+  .portfolio-info {
+    margin-top: 50px;
+  }
+  .portfolio-cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* Our Sponsor Section Style */
+  .sponsor-info {
+    margin-top: 50px;
+  }
+  .brand-logo {
+    flex-direction: column;
+    gap: 50px;
   }
 }
